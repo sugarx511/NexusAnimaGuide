@@ -63,6 +63,7 @@ public class CounterController {
       Integer count = 1;
       if (curCounter.isPresent()) {
         count += curCounter.get().getCount();
+        count += curCounter.get().getCount();
       }
       Counter counter = new Counter();
       counter.setId(1);
