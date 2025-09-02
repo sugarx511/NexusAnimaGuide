@@ -1,0 +1,7 @@
+MYSQL_DATABASE: nexus_anima_guide
+MYSQL_ADDRESS: 127.0.0.1:3306
+MYSQL_USERNAME: root
+MySQL_PASSWORD: root
+
+
+
