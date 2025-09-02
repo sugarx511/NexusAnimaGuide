@@ -29,6 +29,6 @@ public class TestApi {
     @Res
     @RequestMapping(value = "/test")
     public Object test() {
-        return testRepository.findById(1L);
+        return testRepository.findById(1L).orElse(null);
     }
 }
